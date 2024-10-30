@@ -2,15 +2,29 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .all-\[unset\] {
+    all: unset;
+  }
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --buttons-font-family: "Roboto", Helvetica;
+  --buttons-font-size: 16px;
+  --buttons-font-style: normal;
+  --buttons-font-weight: 500;
+  --buttons-letter-spacing: 2px;
+  --buttons-line-height: normal;
+  --primary: rgba(71, 95, 69, 1);
+  --white: rgba(255, 255, 255, 1);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #ffffff;
+    --foreground: #171717;
   }
 }
 
@@ -18,4 +32,12 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.Navbar {
+  width: 100%;
+}
+
+.Kotak {
+  right: 0;
 }
