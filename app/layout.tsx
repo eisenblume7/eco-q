@@ -39,17 +39,17 @@ export default function RootLayout({
 }) {
   return (
       <html lang="en">
-      <head>
-        <link
+        <head>
+            <link
             href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400&display=swap"
             rel="stylesheet"
-        />
-      </head>
-      <body
+            />
+        </head>
+        <body
           className={`${geistSans.variable} ${geistMono.variable} ${roboto.variable} ${montserrat.variable} antialiased font-primary`}
-      >
-      {children}
-      </body>
+        >
+            {children}
+         </body>
       </html>
   );
 }

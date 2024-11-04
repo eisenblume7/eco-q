@@ -1,9 +1,4 @@
-import Sidenav from "@/app/components/Sidenav";
-
-export default function Home() {
-    return (
-        <div>
-            <Sidenav/>
-        </div>
-    );
+// app/page.tsx
+export default function Dashboard() {
+    return null;
 }
