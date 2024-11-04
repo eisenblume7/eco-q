@@ -1,11 +1,14 @@
 "use client"
 import React from 'react';
+import PlantCatalog from "@/app/components/PlantCatalog";
 
 const KatalogTanaman: React.FC = () => {
     return (
         <div>
-            <h2 className="text-xl font-bold">Katalog Tanaman</h2>
-            <div>Here is the catalog of plants.</div>
+            <h1 className="text-4xl text-left ml-6 mt-14 font-bold">Katalog Tanaman</h1>
+            <div>
+                <PlantCatalog/>
+            </div>
         </div>
     );
 };

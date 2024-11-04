@@ -53,7 +53,7 @@ const Sidenav: React.FC<SidebarProps> = ({setSelectedComponent, selectedComponen
             </div>
 
             {/* Logout Section */}
-            <div className="flex px-5 items-center font-sans space-x-2">
+            <div className="hover:w-52 hover:bg-green-600 hover:border-green-600 space-x-2 px-4 py-2 rounded-lg  flex items-center font-sans ">
                 <span>Logout</span>
                 <FaSignOutAlt />
             </div>
