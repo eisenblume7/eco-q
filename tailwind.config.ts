@@ -13,7 +13,9 @@ const config: Config = {
         foreground: "var(--foreground)",
       },
       fontFamily: {
-        primary: ["Helvetica", "Arial", "sans-serif"],
+        helvetica: ["Helvetica", "Arial", "sans-serif"],
+        sans: ["var(--font-mons)", 'sans-serif'],
+        primary: ['Roboto', 'Helvetica'],
         libre: ["'Libre Baskerville'", "Helvetica", "serif"],
         geist: ["var(--font-geist-sans)", "sans-serif"],
         mono: ["var(--font-geist-mono)", "monospace"],

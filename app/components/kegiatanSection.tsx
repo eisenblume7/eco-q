@@ -61,8 +61,8 @@ export default function KegiatanSection() {
                     <h3 className="text-2xl font-semibold font-libre text-[#214f30]">
                         {posts[0].title}
                     </h3>
-                    <p className="text-gray-600 mb-2">{posts[0].content}</p>
-                    <p className="text-gray-400">{posts[0].date}</p>
+                    <p className="text-gray-600 font-sans mb-2">{posts[0].content}</p>
+                    <p className="text-gray-400 font-sans">{posts[0].date}</p>
                 </div>
 
                 <div className="flex flex-col gap-6">
@@ -77,8 +77,8 @@ export default function KegiatanSection() {
                                 <h4 className="text-xl font-semibold font-libre text-[#214f30]">
                                     {post.title}
                                 </h4>
-                                <p className="text-gray-600">{post.content}</p>
-                                <p className="text-gray-400">{post.date}</p>
+                                <p className="text-gray-600 font-sans">{post.content}</p>
+                                <p className="text-gray-400 font-sans">{post.date}</p>
                             </div>
                         </div>
                     ))}

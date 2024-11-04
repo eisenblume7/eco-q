@@ -14,7 +14,7 @@ export const HeroSection: React.FC = () => {
                 </h1>
 
 
-                <p className="mt-4 text-2xl text-[#324D38] font-primary ">
+                <p className="mt-4 text-2xl text-[#324D38] font-sans ">
                     Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Tincidunt Facilisis Nunc
                 </p>
 

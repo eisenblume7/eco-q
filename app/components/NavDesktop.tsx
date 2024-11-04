@@ -40,7 +40,7 @@ const SearchForm: React.FC = () => (
         <input
             type="text"
             placeholder="Search..."
-            className="w-full px-4 py-2 border border-gray-300 bg-gray-50 rounded-md focus:outline-none focus:ring-2 focus:ring-primary font-primary"
+            className="w-full px-4 py-2 border border-gray-300 bg-gray-50 rounded-md focus:outline-none focus:ring-2 focus:ring-primary font-sans"
         />
         <button
             type="submit"

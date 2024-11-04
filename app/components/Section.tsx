@@ -25,7 +25,7 @@ export default function CatalogSection() {
 
                 <div className="text-white">
                     <h2 className="text-4xl font-libre mb-6">Katalog Tanaman</h2>
-                    <p className="text-lg leading-relaxed mb-4">
+                    <p className="text-lg leading-relaxed font-sans mb-4">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt
                         facilisis nuncLorem ipsum dolor sit amet, consectetur adipiscing
                         elit. Tincidunt facilisis nunc.
